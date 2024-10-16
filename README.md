@@ -76,7 +76,7 @@ Pinecone
 
 ### SPA UI
 
-![](./public/BpH.png)
+![](./public/images/BpH.png)
 
 ### Data
 
