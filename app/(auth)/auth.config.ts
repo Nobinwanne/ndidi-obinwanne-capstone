@@ -1,10 +1,14 @@
 import { NextAuthConfig } from "next-auth";
+console.log(import.meta);
 
 export const authConfig = {
   pages: {
     signIn: "/login",
     newUser: "/",
   },
+  secret: "3M4ne91c7tq/+L8Uxk14bEMfNZARacwFQLz8p+4w3/M=",
+  //To Do: Get secret variable using import.meta.env
+
   providers: [
     // added later in auth.ts since it requires bcrypt which is only compatible with Node.js
     // while this file is also used in non-Node.js environments
