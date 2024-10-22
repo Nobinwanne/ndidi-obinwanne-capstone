@@ -1,12 +1,13 @@
 import { NextAuthConfig } from "next-auth";
-console.log(import.meta);
+
+console.log(process.env);
 
 export const authConfig = {
   pages: {
     signIn: "/login",
     newUser: "/",
   },
-  secret: "3M4ne91c7tq/+L8Uxk14bEMfNZARacwFQLz8p+4w3/M=",
+  secret: process.env.VITE_AUTH_SECRET,
   //To Do: Get secret variable using import.meta.env
 
   providers: [
