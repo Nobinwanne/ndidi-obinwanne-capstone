@@ -91,6 +91,10 @@ Pinecone
   - amenities
   - listing description
 
+### DataBase Schema
+
+![](./public/images/BpH_Db_Schema.png)
+
 ### Endpoints
 
 .Get/lots
